@@ -20,3 +20,10 @@ echo 'src-git Openclash https://github.com/vernesong/OpenClash' >>feeds.conf.def
 #echo 'src-git freifunk https://github.com/freifunk/openwrt-packages.git' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+
+
+#update go 
+wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz
+tar -xzf go1.19.2.linux-amd64.tar.gz -C /usr/local/
+echo "export PATH=$PATH:/usr/local/go/bin" >> /etc/profile
+source /etc/profile
