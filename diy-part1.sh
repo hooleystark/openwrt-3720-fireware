@@ -23,9 +23,9 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 
 #update go 
-wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz
-mkdir -p /tmp/local
-tar -xzf go1.19.2.linux-amd64.tar.gz -C /tmp/local/
-export PATH=$PATH:/tmp/local/go/bin
-echo "export PATH=$PATH:/tmp/local/go/bin" >> /etc/profile
-source /etc/profile
+#wget https://go.dev/dl/go1.19.2.linux-amd64.tar.gz
+#mkdir -p /tmp/local
+#tar -xzf go1.19.2.linux-amd64.tar.gz -C /tmp/local/
+#export PATH=$PATH:/tmp/local/go/bin
+#echo "export PATH=$PATH:/tmp/local/go/bin" >> /etc/profile
+#source /etc/profile
